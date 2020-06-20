@@ -1,0 +1,19 @@
+.header {
+    text-align: center;
+    margin: 50px;
+}
+
+.villager {
+    width: 13%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2px;
+}

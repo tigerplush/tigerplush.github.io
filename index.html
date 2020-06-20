@@ -1,0 +1,42 @@
+<html>
+    <header>
+        <title>Random Villager Generator</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="races.js"></script>
+        <script src="personalities.js"></script>
+        <script src="genders.js"></script>
+        <script src="phrases.js"></script>
+        <script src="songs.js"></script>
+        <script src="random.js"></script>
+    </header>
+    <body onload="Init()">
+        <div class="header">
+            <h1>Animal Crossing New Horizons</h1>
+            <h1>Random Villager Generator</h1>
+        </div>
+        <div class="villager">
+            <div class="item">
+                <div>Race: </div><div id="race"></div>
+            </div>
+            <div class="item">
+                <span>Personality: </span><label id="personality"></label>
+            </div>
+            <div class="item">
+                <span>Gender: </span><label id="gender"></label>
+            </div>
+            <div class="item">
+                <span>Phrase: </span><label id="phrase"></label>
+            </div>
+            <div class="item">
+                <span>Song: </span><label id="song"></label>
+            </div>
+            <div class="item">
+                <span>Birthday: </span><label id="birthday"></label>
+            </div>
+            <div class="item">
+                <span>Birthsign: </span><label id="birthsign"></label>
+            </div>
+            <button onclick="CreateRandomVillager()">Another!</button>
+        </div>
+    </body>
+</html>
